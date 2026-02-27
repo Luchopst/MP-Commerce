@@ -1,8 +1,9 @@
+import "./App.css";
 import Nav from "./Components/Nav/Nav";
 import Prinsipal from "./Components/Prinsipal/Prinsipal";
 import Footer from "./Components/Footer/Footer";
-import "./App.css";
 import Login from "./Components/Login/Login";
+import Register from "./Components/Register/Register";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Nav />
       <Prinsipal />
       <Login />
+      <Register />
       <Footer />
     </div>
   );
