@@ -4,6 +4,7 @@ import Prinsipal from "./Components/Prinsipal/Prinsipal";
 import Footer from "./Components/Footer/Footer";
 import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
+import Card from "./Components/Card/Card";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Prinsipal />
       <Login />
       <Register />
+      <Card />
       <Footer />
     </div>
   );

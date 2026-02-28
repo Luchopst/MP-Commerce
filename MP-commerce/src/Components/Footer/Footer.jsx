@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <div className="card text-center">
+      <div className="card-footer text-center">
         <div className="card-header">Featured</div>
         <div className="card-body">
           <h5 className="card-title">Lo que Necesitas está Acá</h5>
