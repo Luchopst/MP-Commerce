@@ -34,9 +34,9 @@ const Register = () => {
           <p className="p-registro">Verifique antes de Guardar</p>
 
           {/* configuracion de boton regsitro */}
-          <button class="btn-53">
-            <div class="original">Registro</div>
-            <div class="letters">
+          <button className="btn-53">
+            <div className="original">Registro</div>
+            <div className="letters">
               <span>R</span>
               <span>E</span>
               <span>G</span>

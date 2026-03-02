@@ -16,9 +16,9 @@ const Login = () => {
         </p>
 
         {/* configuracion de boton regsitro */}
-        <button class="btn-53">
-          <div class="original">Ingresar</div>
-          <div class="letters">
+        <button className="btn-53">
+          <div className="original">Ingresar</div>
+          <div className="letters">
             <span>I</span>
             <span>N</span>
             <span>G</span>

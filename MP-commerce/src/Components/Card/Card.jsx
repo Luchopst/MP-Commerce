@@ -7,66 +7,66 @@ const Card = () => {
   return (
     <div className="card-container">
       {/* configuracion de CARD */}
-      <div class="card">
+      <div className="card">
         <img src={producto1} alt="producto" className="img" />
-        <div class="textBox">
-          <p class="text head">AirPods</p>
+        <div className="textBox">
+          <p className="text head">AirPods</p>
           <span>MP-Commerce</span>
-          <p class="text price">654,34€</p>
+          <p className="text price">654,34€</p>
         </div>
       </div>
 
-      <div class="card">
+      <div className="card">
         <img src={producto2} alt="producto" className="img" />
-        <div class="textBox">
-          <p class="text head">AirPods</p>
+        <div className="textBox">
+          <p className="text head">AirPods</p>
           <span>MP-Commerce</span>
-          <p class="text price">654,34€</p>
+          <p className="text price">654,34€</p>
         </div>
       </div>
 
-      <div class="card">
+      <div className="card">
         <img src={producto3} alt="producto" className="img" />
-        <div class="textBox">
-          <p class="text head">Iphones</p>
+        <div className="textBox">
+          <p className="text head">Iphones</p>
           <span>MP-Commerce</span>
-          <p class="text price">654,34€</p>
+          <p className="text price">654,34€</p>
         </div>
       </div>
 
-      <div class="card">
+      <div className="card">
         <img src={producto1} alt="producto" className="img" />
-        <div class="textBox">
-          <p class="text head">AirPods</p>
+        <div className="textBox">
+          <p className="text head">AirPods</p>
           <span>MP-Commerce</span>
-          <p class="text price">654,34€</p>
+          <p className="text price">654,34€</p>
         </div>
       </div>
 
-      <div class="card">
+      <div className="card">
         <img src={producto1} alt="producto" className="img" />
-        <div class="textBox">
-          <p class="text head">AirPods</p>
+        <div className="textBox">
+          <p className="text head">AirPods</p>
           <span>MP-Commerce</span>
-          <p class="text price">654,34€</p>
+          <p className="text price">654,34€</p>
         </div>
       </div>
 
-      <div class="card">
+      <div className="card">
         <img src={producto1} alt="producto" className="img" />
-        <div class="textBox">
-          <p class="text head">AirPods</p>
+        <div className="textBox">
+          <p className="text head">AirPods</p>
           <span>MP-Commerce</span>
-          <p class="text price">654,34€</p>
+          <p className="text price">654,34€</p>
         </div>
       </div>
 
-      <div class="card">
+      <div className="card">
         <img src={producto1} alt="producto" className="img" />
-        <div class="textBox">
-          <p class="text head">AirPods</p>
+        <div className="textBox">
+          <p className="text head">AirPods</p>
           <span>MP-Commerce</span>
-          <p class="text price">654,34€</p>
+          <p className="text price">654,34€</p>
         </div>
       </div>
     </div>

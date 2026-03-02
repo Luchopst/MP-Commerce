@@ -1,0 +1,6 @@
+.contenedor-botones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}

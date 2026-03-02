@@ -6,3 +6,11 @@
     width: 100%;
     min-height: 100vh;
 }
+.adm-contenedor{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+}

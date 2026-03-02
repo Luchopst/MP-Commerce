@@ -1,0 +1,11 @@
+.btn-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+.txt-adm{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
