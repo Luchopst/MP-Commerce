@@ -1,6 +1,84 @@
-.contenedor-botones{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: start;
-    flex-direction: column;
+.contenedor-General-productos {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.fondo-productos {
+  background-image: url("../../assets/Images/productos-fondo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+/* barra de búsqueda */
+
+.barra-busqueda {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fondo-barra {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  border-radius: 15px;
+
+  width: 50%;
+  max-width: 600px;
+}
+
+/* -------- TABLET -------- */
+
+@media (max-width: 992px) {
+
+  .fondo-productos {
+    padding: 30px 15px;
+    background-position: center;
+  }
+
+  .fondo-barra {
+    width: 70%;
+  }
+
+}
+
+/* -------- CELULAR -------- */
+
+@media (max-width: 768px) {
+
+  .fondo-productos {
+    padding: 20px 10px;
+    background-position: top center;
+  }
+
+  .fondo-barra {
+    width: 90%;
+  }
+
+}
+
+/* -------- CELULAR CHICO -------- */
+
+@media (max-width: 480px) {
+
+  .fondo-productos {
+    background-position: top;
+    padding: 15px;
+  }
+
+  .fondo-barra {
+    width: 95%;
+    padding: 12px;
+  }
+
 }

@@ -7,7 +7,8 @@ import Footer from "./Components/Footer/Footer";
 import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
 import Card from "./Components/Card/Card";
-import Productos from "./Components/Adm/Productos/Productos";
+import Productos from "./Components/Productos/Productos";
+import Usuarios from "./Components/Usuarios/Usuarios";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/card" element={<Card />} />
         <Route path="/Productos" element={<Productos />} />
+        <Route path="/usuarios" element={<Usuarios />} />
       </Routes>
 
       <Footer />

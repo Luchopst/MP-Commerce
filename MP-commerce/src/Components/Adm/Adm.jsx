@@ -1,7 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Adm.css";
 
 const Adm = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       <button
@@ -18,45 +21,45 @@ const Adm = () => {
         className="offcanvas offcanvas-start"
         data-bs-scroll="true"
         data-bs-backdrop="false"
-        tabindex="-1"
+        tabIndex="-1"
         id="offcanvasScrolling"
         aria-labelledby="offcanvasScrollingLabel"
       >
         <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasScrollingLabel">
-            Administrador MP-Commerce
-          </h5>
+          <h5 className="offcanvas-title">Administrador MP-Commerce</h5>
+
           <button
             type="button"
             className="btn-close"
             data-bs-dismiss="offcanvas"
-            aria-label="Close"
           ></button>
         </div>
+
         <div className="offcanvas-body">
           <p className="txt-adm">
-            En esta Seccion solo el Administrador podra realizar cambios tanto
-            en la pagina como en la base de datos
+            En esta sección solo el Administrador podrá realizar cambios tanto
+            en la página como en la base de datos
           </p>
+
           <div className="btn-contenedor">
-            <button type="button" className="btn btn-dark">
-              Agregar/Eliminar Usuario
+            <button
+              className="btn btn-dark"
+              onClick={() => navigate("/Usuarios")}
+            >
+              Agregar/Eliminar/Modificar Usuario
             </button>
-            <button type="button" className="btn btn-dark">
-              Agregar/Eliminar Producto
+
+            <button
+              className="btn btn-dark"
+              onClick={() => navigate("/productos")}
+            >
+              Agregar/Eliminar/Modificar Producto
             </button>
-            <button type="button" className="btn btn-dark">
-              opcion 3
-            </button>
-            <button type="button" className="btn btn-dark">
-              opcion 4
-            </button>
-            <button type="button" className="btn btn-dark">
-              opcion 5
-            </button>
-            <button type="button" className="btn btn-dark">
-              opcion 6
-            </button>
+
+            <button className="btn btn-dark">opcion 3</button>
+            <button className="btn btn-dark">opcion 4</button>
+            <button className="btn btn-dark">opcion 5</button>
+            <button className="btn btn-dark">opcion 6</button>
           </div>
         </div>
       </div>
